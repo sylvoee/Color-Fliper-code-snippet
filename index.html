@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head><title>Color Flipper</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- <link rel="stylesheet" href="style.css"> -->
+
+<style>
+    button{
+        width:30%
+    }
+    
+</style>
+
+</head>
+<body>
+
+<div class="container">
+    
+    <div class="jumbotron text-center mt-4">
+        <!-- Navbar start here -->
+    <div>
+        <nav class="navbar navbar-expand-md bg-warning   navbar-dark">
+            <!-- Brand -->
+            <a class="navbar-brand" href="index.html">Mini Projects</a>
+          
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav">
+                <li class="nav-item ">
+                  <a class="nav-link text-danger" href="index.html">Color Fliper</a>
+                </li>
+                
+              </ul>
+            </div>
+          </nav>
+    </div>
+
+    <h3 class ="text-info">Color Flip</h3>
+    <hr class = "mt-4 bg-warning">
+         
+    <div class="control">
+        <button class = "change-color btn btn-success" id ="change-color">RGB</button>
+        <button class = "hex-color btn btn-success" id ="change-color">Hexadeciaml colors</button>
+    </div>
+
+    
+    </div>
+</div>
+<script src = "colorFlip.js"></script>
+</body>
+</html>
